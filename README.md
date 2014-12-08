@@ -344,7 +344,7 @@ Cài đặt bình thường, yêu cầu phải có .NET 4.5
 
 Giao diện của chương trình:
 
-<img src=>
+<img src=http://i.imgur.com/Ebx6dJD.png>
 
 Thêm tài khoản Github:
 
