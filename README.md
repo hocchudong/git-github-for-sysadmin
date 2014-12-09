@@ -28,7 +28,8 @@ Mục lục
 			- [2.2.3. Add, commit, push, pull](#)
 	- [3. Thao tác với tổ chức trong Github](#)
 	- [4. Thao tác với nhánh (branch)](#)
-	- [Tổng kết](#)
+	- [5. Issues](#)
+- [Tổng kết](#)
 
 ##I. Mở đầu
 
@@ -441,7 +442,7 @@ hoặc `git add *` để add tất cả các file hiện có.
 
 hoặc `git commit *` để commit tất cả.
 
-ta nên thêm tham số -m để ghi lại một commend cho hành động đó
+ta nên thêm tham số -m để ghi lại một comment cho hành động đó
  
 > git commit README.md -m "ducnc sua doi" 
 
@@ -583,6 +584,26 @@ Sau đó hệ thống sẽ yêu cầu bạn nhập password để xác thực, n
 ```
 Sẽ cập nhật và bổ sung sau
 ```
+
+###5. Issues
+
+Giả sử bạn đang theo dõi repo của tôi và thấy có một số chỗ cần sửa đổi, bạn có thể comment ý kiến của mình vào Repo đó. Sau đó người quản trị sẽ xem xét, thay đổi và trả lời bạn.
+
+Để làm việc này bạn cần vào repo đó, click vào `Issue`. Ví dụ như hình sau:
+
+<img src=http://i.imgur.com/JGiXt76.png>
+
+Sau đó chọn `New issue` (màu xanh) để tạo một issue mới.
+
+<img src=http://i.imgur.com/RTh8QjV.png>
+
+Lúc này tại Repo của người quản trị sẽ thấy một Issue mới, người quản trị có thể click vào Issue này để xem, sau đó xem xét sửa đổi, comment lại. Khi sửa đổi hoàn tất thì sẽ đóng issue đó lại.
+
+<img src=http://i.imgur.com/j8ioZgA.png>
+
+<img src=http://i.imgur.com/fJroMte.png>
+
+Bằng cách tạo issue, bạn có thể đăng các câu hỏi, thắc mắc của mình cho chủ của repo đó.
 
 ## Tổng kết 
 
