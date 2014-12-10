@@ -2,42 +2,13 @@
 
 Mục lục
 
-- [Git và Github cho sysadmin](#)
-- [I. Mở đầu](#)
-- [II. Ngôn ngữ Markdown](#)
-	- [1. Thẻ tiêu đề](#)
-	- [2. Chèn link, chèn ảnh](#)
-	- [3. Ký tự in đậm, in nghiêng](#)
-	- [4. Trích dẫn, bo chữ](#)
-	- [5. Gạch đầu dòng](#)
-	- [6. Tạo bảng](#)
-	- [Mẹo:](#)
-- [III. Các thao tác với Git và Github](#)
-	- [0. Repo](#)
-	- [1. Cài đặt](#)
-		- [1.1. Linux](#)
-		- [1.2. Windows](#)
-	- [2. Thao tác với Repo](#)
-		- [2.1. Trên Linux](#)
-			- [2.1.1. Tạo mới](#)
-			- [2.1.2. Clone](#)
-			- [2.1.3. Add, commit, push](#)
-			- [2.1.4. Pull](#)
-		- [2.2. Trên Windows](#)
-			- [2.2.1. Tạo một repo mới](#)
-			- [2.2.2. Clone](#)
-			- [2.2.3. Add, commit, push, pull](#)
-	- [3. Thao tác với tổ chức trong Github](#)
-	- [4. Thao tác với nhánh (branch)](#)
-	- [5. Issues](#)
-- [Tổng kết](#)
 
-##I. Mở đầu
+## I. Mở đầu
 
 `Git` là một phần mềm dùng để quản lý phiên bản của mã nguồn tương tự như `SVN` nhưng có nhiều ưu điểm hơn, `Git` đang được sủ dụng rộng rãi hiện nay.
 Tuy nhiên trong bài viết này, tôi sẽ nói về git một cách "cá nhân" hơn, mang tính chia sẻ những cái tôi hay làm và hướng tới những người là sysadmin. Mong nhận được ý kiến đóng góp của các bạn.
 
-####Một số khái niệm cần làm rõ
+#### Một số khái niệm cần làm rõ
 
 **`Git` và `Github` khác nhau như thế nào?**
 
@@ -71,7 +42,7 @@ Sau đó tạo các repo tùy mục đích, clone nó về client và code.
 
 Bước này tôi sẽ hướng dẫn chi tiết hơn ở phần sau.
 
-##II. Ngôn ngữ Markdown
+## II. Ngôn ngữ Markdown
 
 Ngôn ngữ này khá đơn giản, bạn có thể đọc tại [đây](http://daringfireball.net/projects/markdown/syntax) để biết cách sử dụng.
 
@@ -81,7 +52,7 @@ Tạo một file có tên bất kỳ với đuôi .md. Có thể dùng `notepad`
 
 Một số phương pháp tôi hay sử dụng để viết:
 
-###1. Thẻ tiêu đề
+### 1. Thẻ tiêu đề
 
 Markdown sử dụng kí tự # để bắt đầu cho các thẻ tiêu đề, có thể dùng từ 1 đến 6 ký tự # liên tiếp. Mức độ riêu đề giảm dần từ 1 đến 6
 
@@ -107,7 +78,7 @@ Ví dụ:
 
 ######6.Tiêu đề cấp 6
 
-###2. Chèn link, chèn ảnh
+### 2. Chèn link, chèn ảnh
 
 Để chèn hyperlink bạn chỉ cần paste luôn linh đó vào file .md
 
@@ -137,7 +108,7 @@ Tôi thường sử dụng công cụ [Lightshot](https://app.prntscr.com/en/ind
 
 Hai công cụ này khá dễ sử dụng, bạn chỉ cần chụp màn hình bằng Lightshot ấn Ctrl + C để copy và Ctrl + V để paste vào trình duyệt tại trang web http://i.imgur.com/
 
-###3. Ký tự in đậm, in nghiêng
+### 3. Ký tự in đậm, in nghiêng
 
 - Để in đậm một đoạn text  bạn chỉ cần làm như sau:
 
@@ -155,7 +126,7 @@ Hai công cụ này khá dễ sử dụng, bạn chỉ cần chụp màn hình b
 
 *từ cần in nghiêng*
 
-###4. Trích dẫn, bo chữ
+### 4. Trích dẫn, bo chữ
 
 Để bo một đoạn text thì bạn chỉ cần sử dụng cú pháp sau:
 
@@ -188,7 +159,7 @@ dns-nameservers 8.8.8.8
 ```
 
 
-###5. Gạch đầu dòng
+### 5. Gạch đầu dòng
 
 Để sử dụng gạch đầu dòng bạn chỉ cần sử dụng cú pháp sau:
 
@@ -216,7 +187,7 @@ dns-nameservers 8.8.8.8
   <li>Thụt với đầu dòng 2</li>
   </ul>
 
-###6. Tạo bảng
+### 6. Tạo bảng
 
 Bạn có thể sử dụng cú pháp sau để tạo bảng:
 
