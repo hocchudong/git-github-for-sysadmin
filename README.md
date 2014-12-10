@@ -1,6 +1,13 @@
 ## Git và Github cho sysadmin
 
+Mục lục
+[I. Mở đầu](#Modau)
+[II. Ngôn ngữ Markdown](#ngonngumarkdown)
 
+
+===========================
+
+<a name="Modau"></a>
 ## I. Mở đầu
 
 `Git` là một phần mềm dùng để quản lý phiên bản của mã nguồn tương tự như `SVN` nhưng có nhiều ưu điểm hơn, `Git` đang được sủ dụng rộng rãi hiện nay.
@@ -40,6 +47,7 @@ Sau đó tạo các repo tùy mục đích, clone nó về client và code.
 
 Bước này tôi sẽ hướng dẫn chi tiết hơn ở phần sau.
 
+<a name="ngonngumarkdown"></a>
 ## II. Ngôn ngữ Markdown
 
 Ngôn ngữ này khá đơn giản, bạn có thể đọc tại [đây](http://daringfireball.net/projects/markdown/syntax) để biết cách sử dụng.
