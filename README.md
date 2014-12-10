@@ -1,6 +1,40 @@
 ##Git và Github cho sysadmin
 
-Mục lục
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+	- [Git và Github cho sysadmin](#)
+	- [I. Mở đầu](#)
+			- [Một số khái niệm cần làm rõ](#)
+	- [II. Ngôn ngữ Markdown](#)
+		- [1. Thẻ tiêu đề](#)
+- [1.Tiêu đề cấp 1](#)
+	- [2.Tiêu đề cấp 2](#)
+					- [6.Tiêu đề cấp 6](#)
+		- [2. Chèn link, chèn ảnh](#)
+		- [3. Ký tự in đậm, in nghiêng](#)
+		- [4. Trích dẫn, bo chữ](#)
+		- [5. Gạch đầu dòng](#)
+		- [6. Tạo bảng](#)
+		- [Mẹo:](#)
+	- [III. Các thao tác với Git và Github](#)
+		- [0. Repo](#)
+		- [1. Cài đặt](#)
+			- [1.1. Linux](#)
+			- [1.2. Windows](#)
+		- [2. Thao tác với Repo](#)
+			- [2.1. Trên Linux](#)
+				- [2.1.1. Tạo mới](#)
+				- [2.1.2. Clone](#)
+				- [2.1.3. Add, commit, push](#)
+				- [2.1.4. Pull](#)
+			- [2.2. Trên Windows](#)
+				- [2.2.1. Tạo một repo mới](#)
+				- [2.2.2. Clone](#)
+				- [2.2.3. Add, commit, push, pull](#)
+		- [3. Thao tác với tổ chức trong Github](#)
+		- [4. Thao tác với nhánh (branch)](#)
+		- [5. Issues](#)
+	- [Tổng kết](#)
 
 
 ## I. Mở đầu
