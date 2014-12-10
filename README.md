@@ -1,13 +1,42 @@
 ## Git và Github cho sysadmin
 
-Mục lục
+###Mục lục
 
 [I. Mở đầu](#Modau)
 
 [II. Ngôn ngữ Markdown](#ngonngumarkdown)
-
+- [1. Thẻ tiêu đề](#thetieude)
+- [2. Chèn link, chèn ảnh](#chenlinkchenanh)
+- [3. Ký tự in đậm, in nghiêng](#kytuindaminnghieng)
+- [4. Trích dẫn, bo chữ](#trichdanbochu)
+- [5. Gạch đầu dòng](#gachdaudong)
+- [6. Tạo bảng](#taobang)
+- [Mẹo](#meo)
+	
 [III. Các thao tác với git và github](#cacthaotacvoigitvagithub)
-
+- [0. Repo](#repo)
+- [1. Cài đặt](#caidat)
+<ul>
+<li>		[1.1. Linux](#11linux)</li>
+<li>		[1.2. Windows](#12windows)</li>
+</ul>
+- [2. Thao tác với Repo](#thaotacvoirepo)
+<ul>
+<li>[2.1. Trên Linux](#21trenlinux)</li>
+<li>[2.1.1. Tạo mới](#211taomoi)</li>
+<li>[2.1.2. Clone](#212clone)</li>
+<li>[2.1.3. Add, commit, push](#213addcommitpush)</li>
+<li>[2.1.4. Pull](#214pull)</li>
+<li>[2.2. Trên Windows](#22trenwindows)</li>
+<li>[2.2.1. Tạo một repo mới](#221taomotrepomoi)</li>
+<li>[2.2.2. Clone](#222clone)</li>
+<li>[2.2.3. Add, commit, push, pull ](#223)</li>
+</ul>
+- [3. Thao tác với tổ chức trong Github](#3)
+- [4. Thao tác với nhánh (branch)](#4)
+- [5. Issues](#5)
+	
+[Tổng kết](#Tongket)
 
 ===========================
 
@@ -62,6 +91,7 @@ Tạo một file có tên bất kỳ với đuôi .md. Có thể dùng `notepad`
 
 Một số phương pháp tôi hay sử dụng để viết:
 
+<a name="thetieude"></a>
 ### 1. Thẻ tiêu đề
 
 Markdown sử dụng kí tự # để bắt đầu cho các thẻ tiêu đề, có thể dùng từ 1 đến 6 ký tự # liên tiếp. Mức độ riêu đề giảm dần từ 1 đến 6
@@ -88,6 +118,7 @@ Ví dụ:
 
 ######6.Tiêu đề cấp 6
 
+<a name="chenlinkchenanh"></a>
 ### 2. Chèn link, chèn ảnh
 
 Để chèn hyperlink bạn chỉ cần paste luôn linh đó vào file .md
@@ -118,6 +149,7 @@ Tôi thường sử dụng công cụ [Lightshot](https://app.prntscr.com/en/ind
 
 Hai công cụ này khá dễ sử dụng, bạn chỉ cần chụp màn hình bằng Lightshot ấn Ctrl + C để copy và Ctrl + V để paste vào trình duyệt tại trang web http://i.imgur.com/
 
+<a name=kytuindaminnghieng></a>
 ### 3. Ký tự in đậm, in nghiêng
 
 - Để in đậm một đoạn text  bạn chỉ cần làm như sau:
@@ -136,6 +168,7 @@ Hai công cụ này khá dễ sử dụng, bạn chỉ cần chụp màn hình b
 
 *từ cần in nghiêng*
 
+<a name="trichdanbochu"></a>
 ### 4. Trích dẫn, bo chữ
 
 Để bo một đoạn text thì bạn chỉ cần sử dụng cú pháp sau:
@@ -168,7 +201,7 @@ gateway 10.10.10.1
 dns-nameservers 8.8.8.8
 ```
 
-
+<a name="gachdaudong"></a>
 ### 5. Gạch đầu dòng
 
 Để sử dụng gạch đầu dòng bạn chỉ cần sử dụng cú pháp sau:
@@ -197,6 +230,7 @@ dns-nameservers 8.8.8.8
   <li>Thụt với đầu dòng 2</li>
   </ul>
 
+<a name="taobang"></a>
 ### 6. Tạo bảng
 
 Bạn có thể sử dụng cú pháp sau để tạo bảng:
@@ -217,6 +251,7 @@ Kết quả:
 | Hàng 3 | 3 x 1 | 3 x 2 | 3 x 3 | 3 x 4 |
 | Hàng 4 | 4 x 1 | 4 x 2 | 4 x 3 | 4 x 4 |
 
+<a name="meo"></a>
 ###*Mẹo:*
 
 - Sử dụng trang http://markdownlivepreview.com/ paste vào đó đoạn markdown bạn viết và xem trước để chỉnh sửa cho phù hợp.
@@ -228,6 +263,7 @@ Như vậy bạn đã có thể trình bày github của mình một cách sáng
 <a name="cacthaotacvoigitvagithub"></a>
 ##III. Các thao tác với Git và Github
 
+<a name="repo"></a>
 ###0. Repo
 
 Git là một công cụ để quản lý mã nguồn, nhưng tôi không phải là một coder nên tôi sẽ không sử dụng Git theo cách mà các coder hay sử dụng.
@@ -257,8 +293,10 @@ Tương ứng với 3 vị trí này ta có các hành động:
 
 - Pull: đồng bộ trạng thái từ server về máy trạm - tương đương lệnh `git pull`
 
+<a name="caidat"></a>
 ###1. Cài đặt
 
+<a name="11linux"></a>
 ####1.1. Linux
 
 Với OS là Ubuntu:
@@ -320,6 +358,7 @@ Truy cập đường dẫn sau https://github.com/settings/ssh (đảm bảo b�
 
 Lúc này bạn đã có thể commit lên github tại máy local mà không cần nhập username và password.
 
+<a name="12windows"></a>
 ####1.2. Windows	
 
 Download tại địa chỉ: https://windows.github.com/
@@ -340,10 +379,14 @@ Thêm tài khoản Github:
 
 Click Update
 
+
+<a name="thaotacvoirepo"></a>
 ###2. Thao tác với Repo
 
+<a name="21trenlinux"></a>
 ####2.1. Trên Linux
 
+<a name="211taomoi"></a>
 ##### 2.1.1. Tạo mới
 
 Tạo một repo mới trên trang github.com
@@ -352,6 +395,7 @@ Tạo một repo mới trên trang github.com
 
 <img src=http://i.imgur.com/MJZjYMm.png>
 
+<a name="212clone"></a>
 ##### 2.1.2. Clone
 
 Clone repo đó về bằng một trong các cách sau:
@@ -411,6 +455,7 @@ sleep 10
 
 bằng cách tương tự các bạn có thể tạo thêm nhiều thư mục, file hướng dẫn, cấu hình, script,... tùy ý
 
+<a name="213addcommitpush"></a>
 #####2.1.3. Add, commit, push
 
 Để thực hiện hành động `add` ta sử dụng lệnh sau
@@ -468,6 +513,7 @@ hoặc `git commit README.md -m noi dung`
 
 Sau đó nhập passphrase(nếu cần) hoặc username + password (nếu sử dụng SSH)
 
+<a name="214pull"></a>
 #####2.1.4. Pull
 
 Giả sử trên server github của bạn có những thay đổi mà máy local chưa cập nhật những thay đổi đó. Bạn thực hiện lệnh sau:
@@ -476,8 +522,10 @@ Giả sử trên server github của bạn có những thay đổi mà máy loca
 
 > git pull
 
+<a name="22trenwindows"></a>
 ####2.2. Trên Windows
 
+<a name="221taomotrepomoi"></a>
 #####2.2.1. Tạo một repo mới
 
 Tạo repo trên github.com tự như mục 2.1.1.
@@ -496,6 +544,7 @@ Tạo repo bằng phần mềm Github
 
 <img src=http://i.imgur.com/6kXeDfL.png>
 
+<a name="222clone"></a>
 #####2.2.2. Clone
 
 Click vào dấu cộng, chọn tab Clone, lựa chọn tổ chức mong muốn và chọn repo cần clone
@@ -508,6 +557,7 @@ Click vào dấu cộng, chọn tab Clone, lựa chọn tổ chức mong muốn 
 
 Lúc đó chương trình Windows Explorer sẽ mở ra thư mục chứa repo của github, bạn có thể chỉnh sửa các file trong này, tạo xóa thư mục,... một cách bình thường.
 
+<a name="223"></a>
 #####2.2.3. Add, commit, push, pull 
 
 Trở lại với chương trình Github ta sẽ thấy dòng `uncommited changes` tại repo ta vừa sửa. Bạn hãy điền vào đó comment và ấn `commit to master`
@@ -523,7 +573,7 @@ Sau khi đồng bộ xong, quay trở lại repo trên trang github.com.
 Để đồng bộ những thay đổi trên github.com về máy local (pull) ta cũng click vào biểu tượng `Sync` như bên trên.
 
 
-
+<a name="3"></a>
 ###3. Thao tác với tổ chức trong Github
 
 Để tạo một nhóm cho nhiều người cùng làm việc ta làm như sau:
@@ -562,13 +612,16 @@ Sau đó hệ thống sẽ yêu cầu bạn nhập password để xác thực, n
 
 Để tạo một repo cho tổ chức, ta chỉ cần click vào tổ chức đó, sau đó chọn `Create new Repostory`. Các hành động clone, add, commit,... làm như bình thường.
 
+<a name="4"></a>
 ###4. Thao tác với nhánh (branch)
 
 ```
 Sẽ cập nhật và bổ sung sau
 ```
 
+<a name="5"></a>
 ###5. Issues
+
 
 Giả sử bạn đang theo dõi repo của tôi và thấy có một số chỗ cần sửa đổi, bạn có thể comment ý kiến của mình vào Repo đó. Sau đó người quản trị sẽ xem xét, thay đổi và trả lời bạn.
 
@@ -588,6 +641,7 @@ Lúc này tại Repo của người quản trị sẽ thấy một Issue mới, 
 
 Bằng cách tạo issue, bạn có thể đăng các câu hỏi, thắc mắc của mình cho chủ của repo đó.
 
+<a name="Tongket"></a>
 ## Tổng kết 
 
 Bài viết trên tôi tổng hợp lại những kiến thức thu được khi sử dụng git và github cho công việc của tôi (sys admin), hi vọng nó giúp các bạn một phần nào đó.
