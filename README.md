@@ -6,6 +6,8 @@ Mục lục
 
 [II. Ngôn ngữ Markdown](#ngonngumarkdown)
 
+[III. Các thao tác với git và github](#cacthaotacvoigitvagithub)
+
 
 ===========================
 
@@ -223,6 +225,7 @@ Kết quả:
 
 Như vậy bạn đã có thể trình bày github của mình một cách sáng sủa bằng markdown.
 
+<a name="cacthaotacvoigitvagithub"></a>
 ##III. Các thao tác với Git và Github
 
 ###0. Repo
