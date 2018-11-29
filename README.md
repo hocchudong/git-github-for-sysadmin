@@ -23,7 +23,7 @@
 
 - [2. Thao tác với Repo](#thaotacvoirepo)
 
-- [2.1. Trên Linux](#21trenlinux)
++ [2.1. Trên Linux](#21trenlinux)
 - [2.1.1. Tạo mới](#211taomoi)
 - [2.1.2. Clone](#212clone)
 - [2.1.3. Add, commit, push](#213addcommitpush)
