@@ -17,10 +17,9 @@
 [III. Các thao tác với git và github](#cacthaotacvoigitvagithub)
 - [0. Repo](#repo)
 - [1. Cài đặt](#caidat)
-<ul>
-<li>		[1.1. Linux](#11linux)</li>
-<li>		[1.2. Windows](#12windows)</li>
-</ul>
+[1.1. Linux](#linux)
+[1.2. Windows](#windows)
+
 - [2. Thao tác với Repo](#thaotacvoirepo)
 <ul>
 <li>[2.1. Trên Linux](#21trenlinux)</li>
@@ -297,7 +296,7 @@ Tương ứng với 3 vị trí này ta có các hành động:
 <a name="caidat"></a>
 ###1. Cài đặt
 
-<a name="11linux"></a>
+<a name="linux"></a>
 ####1.1. Linux
 
 Với OS là Ubuntu:
@@ -359,7 +358,7 @@ Truy cập đường dẫn sau https://github.com/settings/ssh (đảm bảo b�
 
 Lúc này bạn đã có thể commit lên github tại máy local mà không cần nhập username và password.
 
-<a name="12windows"></a>
+<a name="windows"></a>
 ####1.2. Windows	
 
 Download tại địa chỉ: https://windows.github.com/
