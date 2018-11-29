@@ -17,8 +17,9 @@
 [III. Các thao tác với git và github](#cacthaotacvoigitvagithub)
 - [0. Repo](#repo)
 - [1. Cài đặt](#caidat)
--- [1.1. Linux](#linux)
--- [1.2. Windows](#windows)
+
+- [1.1. Linux](#linux)
+- [1.2. Windows](#windows)
 
 - [2. Thao tác với Repo](#thaotacvoirepo)
 <ul>
