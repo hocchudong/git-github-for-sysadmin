@@ -102,22 +102,22 @@ Tùy mục đích và ý thích bạn có thể sử dụng cách này để th�
 Ví dụ:
 
 ```
-#1.Tiêu đề cấp 1
+# 1.Tiêu đề cấp 1
 ```
 
-#1.Tiêu đề cấp 1
+# 1.Tiêu đề cấp 1
 
 ```
-##2.Tiêu đề cấp 2
+## 2.Tiêu đề cấp 2
 ```
 
-##2.Tiêu đề cấp 2
+## 2.Tiêu đề cấp 2
 
 ```
-######6.Tiêu đề cấp 6
+###### 6.Tiêu đề cấp 6
 ```
 
-######6.Tiêu đề cấp 6
+###### 6.Tiêu đề cấp 6
 
 <a name="chenlinkchenanh"></a>
 ### 2. Chèn link, chèn ảnh
@@ -209,27 +209,31 @@ dns-nameservers 8.8.8.8
 
 ```
 - Gạch đầu dòng thứ nhất
-  <ul>
-  <li>Thụt với đầu dòng 1</li>
-  <li>Thụt với đầu dòng 1</li>
-  </ul>
+  
+  - Thụt với đầu dòng 1
+  
+  - Thụt với đầu dòng 1
+ 
 - Gạch đầu dòng thứ hai
-  <ul>
-  <li>Thụt với đầu dòng 2</li>
-  <li>Thụt với đầu dòng 2</li>
-  </ul>
+  
+  - Thụt với đầu dòng 2
+  
+  - Thụt với đầu dòng 2
+  
 ```
 
 - Gạch đầu dòng thứ nhất
-  <ul>
-  <li>Thụt với đầu dòng 1</li>
-  <li>Thụt với đầu dòng 1</li>
-  </ul>
+  
+  - Thụt với đầu dòng 1
+  
+  - Thụt với đầu dòng 1
+  
 - Gạch đầu dòng thứ hai
-  <ul>
-  <li>Thụt với đầu dòng 2</li>
-  <li>Thụt với đầu dòng 2</li>
-  </ul>
+  
+  - Thụt với đầu dòng 2
+  
+  - Thụt với đầu dòng 2
+  
 
 <a name="taobang"></a>
 ### 6. Tạo bảng
@@ -262,10 +266,10 @@ Kết quả:
 Như vậy bạn đã có thể trình bày github của mình một cách sáng sủa bằng markdown.
 
 <a name="cacthaotacvoigitvagithub"></a>
-##III. Các thao tác với Git và Github
+## III. Các thao tác với Git và Github
 
 <a name="repo"></a>
-###0. Repo
+### 0. Repo
 
 Git là một công cụ để quản lý mã nguồn, nhưng tôi không phải là một coder nên tôi sẽ không sử dụng Git theo cách mà các coder hay sử dụng.
 Tôi sử dụng git và github để lưu trữ các file cấu hình của mình, các script, viết các bài hướng dẫn, các bản nháp,...
@@ -295,10 +299,10 @@ Tương ứng với 3 vị trí này ta có các hành động:
 - Pull: đồng bộ trạng thái từ server về máy trạm - tương đương lệnh `git pull`
 
 <a name="caidat"></a>
-###1. Cài đặt
+### 1. Cài đặt
 
 <a name="linux"></a>
-####1.1. Linux
+#### 1.1. Linux
 
 Với OS là Ubuntu:
 
@@ -360,7 +364,7 @@ Truy cập đường dẫn sau https://github.com/settings/ssh (đảm bảo b�
 Lúc này bạn đã có thể commit lên github tại máy local mà không cần nhập username và password.
 
 <a name="windows"></a>
-####1.2. Windows	
+#### 1.2. Windows	
 
 Download tại địa chỉ: https://windows.github.com/
 
@@ -382,10 +386,10 @@ Click Update
 
 
 <a name="thaotacvoirepo"></a>
-###2. Thao tác với Repo
+### 2. Thao tác với Repo
 
 <a name="21trenlinux"></a>
-####2.1. Trên Linux
+#### 2.1. Trên Linux
 
 <a name="211taomoi"></a>
 ##### 2.1.1. Tạo mới
@@ -457,7 +461,7 @@ sleep 10
 bằng cách tương tự các bạn có thể tạo thêm nhiều thư mục, file hướng dẫn, cấu hình, script,... tùy ý
 
 <a name="213addcommitpush"></a>
-#####2.1.3. Add, commit, push
+##### 2.1.3. Add, commit, push
 
 Để thực hiện hành động `add` ta sử dụng lệnh sau
 
@@ -515,7 +519,7 @@ hoặc `git commit README.md -m noi dung`
 Sau đó nhập passphrase(nếu cần) hoặc username + password (nếu sử dụng SSH)
 
 <a name="214pull"></a>
-#####2.1.4. Pull
+##### 2.1.4. Pull
 
 Giả sử trên server github của bạn có những thay đổi mà máy local chưa cập nhật những thay đổi đó. Bạn thực hiện lệnh sau:
 
@@ -524,10 +528,10 @@ Giả sử trên server github của bạn có những thay đổi mà máy loca
 > git pull
 
 <a name="22trenwindows"></a>
-####2.2. Trên Windows
+#### 2.2. Trên Windows
 
 <a name="221taomotrepomoi"></a>
-#####2.2.1. Tạo một repo mới
+##### 2.2.1. Tạo một repo mới
 
 Tạo repo trên github.com tự như mục 2.1.1.
 
@@ -546,7 +550,7 @@ Tạo repo bằng phần mềm Github
 <img src=http://i.imgur.com/6kXeDfL.png>
 
 <a name="222clone"></a>
-#####2.2.2. Clone
+##### 2.2.2. Clone
 
 Click vào dấu cộng, chọn tab Clone, lựa chọn tổ chức mong muốn và chọn repo cần clone
 
@@ -559,7 +563,7 @@ Click vào dấu cộng, chọn tab Clone, lựa chọn tổ chức mong muốn 
 Lúc đó chương trình Windows Explorer sẽ mở ra thư mục chứa repo của github, bạn có thể chỉnh sửa các file trong này, tạo xóa thư mục,... một cách bình thường.
 
 <a name="223"></a>
-#####2.2.3. Add, commit, push, pull 
+##### 2.2.3. Add, commit, push, pull 
 
 Trở lại với chương trình Github ta sẽ thấy dòng `uncommited changes` tại repo ta vừa sửa. Bạn hãy điền vào đó comment và ấn `commit to master`
 
@@ -575,7 +579,7 @@ Sau khi đồng bộ xong, quay trở lại repo trên trang github.com.
 
 
 <a name="3"></a>
-###3. Thao tác với tổ chức trong Github
+### 3. Thao tác với tổ chức trong Github
 
 Để tạo một nhóm cho nhiều người cùng làm việc ta làm như sau:
 
@@ -614,14 +618,14 @@ Sau đó hệ thống sẽ yêu cầu bạn nhập password để xác thực, n
 Để tạo một repo cho tổ chức, ta chỉ cần click vào tổ chức đó, sau đó chọn `Create new Repostory`. Các hành động clone, add, commit,... làm như bình thường.
 
 <a name="4"></a>
-###4. Thao tác với nhánh (branch)
+### 4. Thao tác với nhánh (branch)
 
 ```
 Sẽ cập nhật và bổ sung sau
 ```
 
 <a name="5"></a>
-###5. Issues
+### 5. Issues
 
 
 Giả sử bạn đang theo dõi repo của tôi và thấy có một số chỗ cần sửa đổi, bạn có thể comment ý kiến của mình vào Repo đó. Sau đó người quản trị sẽ xem xét, thay đổi và trả lời bạn.
